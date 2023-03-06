@@ -41,7 +41,11 @@ li{
     margin-left: 10px;
     cursor: pointer;
 }
-li:hover{
+li a {
+    text-decoration: none;
+    color: #ddd;
+}
+li a:hover{
     color: aquamarine;
     transition: 0.6s;
 }
@@ -76,6 +80,9 @@ ul{
     background: linear-gradient(to right, #332626, #807e7e);
     
     
+}
+.segunda-secao p{
+    margin-bottom: 20px;
 }
 .segunda-secao img{
     height: 250px;
@@ -148,6 +155,9 @@ ul{
     text-align: center;
     margin-right: -30px;
 }
+.informacoes-sobre-min{
+    
+}
 .projetos{
     background: linear-gradient(to right, #0f0f0f, #000000);
     padding: 50px 0 100px 0;
@@ -163,12 +173,32 @@ ul{
     background-color: #2e2e2e70;
     height: 365px;
     width: 335px;
-    border-radius: 15px;
+    border-radius: solid;
     padding: 20px 35px;
     text-align: center;
+    margin-left: 10px;
+    overflow: auto ;
+    scrollbar-width: thin;
+    scrollbar-color: #555 #eee;
 }
+
+/* estilizando a barra de rolagem para navegadores baseados no Chromium */
+    .card::-webkit-scrollbar {
+    width: 8px; /* largura da barra de rolagem */
+  }
+  
+  .card::-webkit-scrollbar-track {
+    background: #eee; /* cor do fundo da barra de rolagem */
+  }
+  
+  .card::-webkit-scrollbar-thumb {
+    background-color: #555; /* cor da barra de rolagem */
+    border-radius: 20px; /* borda arredondada da barra de rolagem */
+    border: 2px solid #eee; /* borda da barra de rolagem */
+  }
 .card img {
     height: 100px;
+    
 }
 .card h5{
     color: #ddd;
@@ -195,10 +225,11 @@ ul{
     display: flex;
     justify-content: space-around;
     margin: 100px 0 0 0;
+    
 }
 footer{
     background-color: #0f0f0f;
-    padding: 100px 0 120px 0;
+    padding: 30px 0 30px ;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -279,8 +310,9 @@ footer p{
         display: block;
     }
 }
-@media screen and (max-width: 1335px) {
 
+@media screen and (max-width: 1505px){
+    
     .caixa-principal {
         height: 100vh;
         width: 100vw;
@@ -290,6 +322,8 @@ footer p{
         background-position: center center;
         background-repeat: no-repeat;
     }
+}
+@media screen and (max-width: 1200px) {
     .caixa-principal h1{
         font-size: 30px;
         text-align: start;
