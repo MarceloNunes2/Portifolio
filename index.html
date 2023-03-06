@@ -13,15 +13,15 @@
     <title>Marcelo Nunes</title>
 </head>
 <body>
-    <div class="caixa-principal">
+    <div class="caixa-principal" id="caixa-principal">
         
             <nav >
                 <h2 class="portifolio"> Portifo<span>lio</span></h2>
                 <ul>
-                    <li><a>Home</a></li>
-                    <li><a>Sobre</a></li>
-                    <li><a>Projetos</a></li>
-                    <li><a>Fale Comigo</a></li>
+                    <li><a href="#caixa-principal">Home</a></li>
+                    <li><a href="#segunda-secao">Sobre</a></li>
+                    <li><a href="#card-projetos">Projetos</a></li>
+                    <li><a href="#fale-comigo">Fale Comigo</a></li>
                 </ul>
 
                 <div class="mobile-menu-icon">
@@ -31,10 +31,11 @@
 
             <div class="menu-mobile">
                 <ul>
-                    <li><a>Home</a></li>
-                    <li><a>Sobre</a></li>
-                    <li><a>Projetos</a></li>
-                    <li><a>Fale Comigo</a></li>
+                    
+                    <li><a href="#caixa-principal">Home</a></li>
+                    <li><a href="#segunda-secao">Sobre</a></li>
+                    <li><a href="#card-projetos">Projetos</a></li>
+                    <li><a href="#fale-comigo">Fale Comigo</a></li>
                 </ul>
             </div>
 
@@ -45,37 +46,48 @@
         
         </div>
         
-            <section class="segunda-secao">
+            <section class="segunda-secao" id="segunda-secao">
                 <img src="img/Marcelo.png" alt="imagem-marcelo">
                 <div class="informacoes-sobre-min">
                     <h2>Sobre Min</h2>
-                    <p>Eu sou um ProgramadorFront-end, temho experiência e <br>conhecimento criando aplicações com HTML,CSS, <br>JavaScript,React e Nodejs</p>
+                    <p>Sou um desenvolvedor com formação em Ciência da Computação e experiência em desenvolvimento front-end utilizando HTML, CSS e JavaScript. Além disso, tenho conhecimentos básicos em PostgreSQL e C#. Atualmente, estou estudando e me aprofundando em tecnologias como React e Node.js, o que me permitirá desenvolver soluções mais robustas e escaláveis. Já estagiei como desenvolvedor C#, o que me deu a oportunidade de trabalhar em projetos reais e adquirir habilidades de programação e resolução de problemas. Estou sempre em busca de novos desafios e aprendizados, e estou animado em aplicar minhas habilidades para criar soluções criativas e eficientes para os problemas de meus clientes</p>
                     <button>Entre em contato</button>
                 </div>
             </section>
         <section class="projetos">
             <h2>Principais Projetos</h2>
 
-            <div class="card-projetos">
+            <div class="card-projetos" id="card-projetos">
                 <div class="card">
-                    <img src="img/linkedin.png" alt="">
+                    <img src="img/logos-removebg-preview.png" alt="">
                     <h5>Projeto 1</h5>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sequi, facilis ex, maxime porro in exercitationem fugiat odit ratione voluptatibus autem omnis maiores ipsam quo ipsum! Saepe deleniti natus minus.</p>
-                    <a href="" target="_blank">Ver projeto</a>
+                    <p> Desenvolvi um site de beleza totalmente responsivo para uma cliente que oferece serviços de cuidados com a pele, maquiagem e            penteados.     
+                        O site foi construído utilizando HTML, CSS e JavaScript para garantir uma experiência de usuário agradável e interativa em qualquer dispositivo, desde desktops até smartphones.
+
+                        O site apresenta um design elegante e sofisticado que reflete a marca e os serviços oferecidos pela cliente. Utilizei imagens de alta qualidade para destacar os tratamentos disponíveis e incluí uma seção de depoimentos para demonstrar a satisfação dos clientes anteriores. Também implementei um sistema de reservas online para facilitar o agendamento você pode enviar um e-mail assim pode agendar seu horario. Também tem a opção de chamar via Whatssap com um botão flutuante que deixei na página
+                        
+                        Ao desenvolver este site, foquei na usabilidade e na acessibilidade, garantindo que ele fosse fácil de navegar e utilizável em diversos dispositivos e navegadores. Estou orgulhoso do resultado final e acredito que este site irá ajudar minha cliente a expandir seus negócios e a alcançar mais clientes em potencial."</p>
+                    <a href="https://marcelonunes2.github.io/site-joyce-project-2/" target="_blank">Ver projeto</a>
                 </div>
                 
                 <div class="card">
-                    <img src="img/linkedin.png" alt="">
+                    <img src="img/conversor-removebg-preview.png" alt="">
                     <h5>Projeto 2</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sequi, facilis ex, maxime porro in exercitationem fugiat odit ratione voluptatibus autem omnis maiores ipsam quo ipsum! Saepe deleniti natus minus.</p>
-                    <a href="" target="_blank">Ver projeto</a>
+                    <a href="https://marcelonunes2.github.io/Projeto-Conversor-de-Moedas/" target="_blank">Ver projeto</a>
                 </div>
                 
                 <div class="card">
-                    <img src="img/linkedin.png" alt="">
+                    <img src="img/clima-removebg-preview.png" alt="">
                     <h5>Projeto 3</h5>
                     <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sequi, facilis ex, maxime porro in exercitationem fugiat odit ratione voluptatibus autem omnis maiores ipsam quo ipsum! Saepe deleniti natus minus.</p>
-                    <a href="" target="_blank">Ver projeto</a>
+                    <a href="https://marcelonunes2.github.io/Projeto-Tempo/" target="_blank">Ver projeto</a>
+                </div>
+                 <div class="card">
+                    <img src="img/Pokemon-Logo-removebg-preview.png" alt="">
+                    <h5>Projeto 4</h5>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi sequi, facilis ex, maxime porro in exercitationem fugiat odit ratione voluptatibus autem omnis maiores ipsam quo ipsum! Saepe deleniti natus minus.</p>
+                    <a href="https://marcelonunes2.github.io/projeto-pokemon/" target="_blank">Ver projeto</a>
                 </div>
             </div>
 
@@ -84,11 +96,13 @@
 
     </div>
 
-    <footer>
-        <h5>Marcelo Nunes</h5>
-        <p>Para mais informações</p>
+    <footer id="fale-comigo">
+        <p>&copy; 2023 Marcelo Nunes da Silva. Todos os direitos reservados.</p>
+        <samp style="color: aliceblue; font-size: 35px;"> &#x2193; </samp>
+        <p>Para mais informações </p>
 
-
+        
+        
         <div class="social">
           <a href=""><img src="img/linkedin.png" alt=""></a>
           <a href=""><img src="img/GitHub.png" alt=""></a>
