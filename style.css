@@ -245,8 +245,7 @@ ul{
     
 }
 footer{
-    width: 102vw;
-    background-color: #0f0f0f;
+    background: linear-gradient(45deg, #4c3d3d, #542424f2);
     padding: 30px 0 30px ;
     display: flex;
     flex-direction: column;
