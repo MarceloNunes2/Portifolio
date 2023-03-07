@@ -368,9 +368,11 @@ footer p{
         display: block;
     }
     .btn-whatsapp {
+        position: absolute;
         height: 50px;
         width: 50px;
         animation: none;
+        
         }
     
 }
