@@ -435,17 +435,22 @@ footer p{
         margin-bottom: 10px;
         align-items: center;
         justify-content: center;
+        margin-left: -1px;
     }
     .informacoes-sobre-min h2{
        font-size: 26px;
-       
+       margin-right: 45px;
        
     }
     .informacoes-sobre-min p{
         font-size: 15px;
         margin-bottom: 20px;
         color: #ddd;
-        
+        margin-right: 45px;
+
+    }
+    .segunda-secao button{
+        margin-right: 46px;
     }
     .projetos{
         width: 100vw;
