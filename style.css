@@ -439,10 +439,13 @@ footer p{
     .informacoes-sobre-min h2{
        font-size: 26px;
        
+       
     }
     .informacoes-sobre-min p{
         font-size: 15px;
         margin-bottom: 20px;
+        color: #ddd;
+        
     }
     .projetos{
         width: 100vw;
