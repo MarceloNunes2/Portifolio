@@ -150,6 +150,10 @@ ul{
     border-radius: 20px;
     cursor: pointer;
 }
+.segunda-secao button a{
+    text-decoration: none;
+    color: #ddd;
+}
 .segunda-secao button:hover{
     background-color: rgb(27, 27, 27);
     border: 3px solid #f9004d;
@@ -164,9 +168,7 @@ ul{
     text-align: center;
     margin-right: -30px;
 }
-.informacoes-sobre-min{
-    
-}
+
 .projetos{
     background: linear-gradient(to right, #0f0f0f, #000000);
     padding: 50px 0 100px 0;
@@ -372,12 +374,13 @@ footer p{
     
     .caixa-principal {
         height: 100vh;
-        width: 100vw;
+        width: 105vw;
         background-color: rgb(46, 6, 6);
         background-image: url(img/background.png);
         background-size: contain;
         background-position: center center;
         background-repeat: no-repeat;
+        
     }
 }
 @media screen and (max-width: 1200px) {
